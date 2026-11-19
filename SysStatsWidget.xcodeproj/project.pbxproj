@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		111111111111111111111205 /* SysStatsWidgetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111111111111111111111201 /* SysStatsWidgetApp.swift */; };
+		11111111111111111111120A /* SysStatsWidgetExtension.appex in Embed Widget Extension */ = {isa = PBXBuildFile; fileRef = 111111111111111111111305 /* SysStatsWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		111111111111111111111306 /* SysStatsWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111111111111111111111301 /* SysStatsWidget.swift */; };
+		111111111111111111111307 /* StatsCollector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111111111111111111111302 /* StatsCollector.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		111111111111111111111401 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 111111111111111111111101 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 111111111111111111111304;
+			remoteInfo = SysStatsWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		111111111111111111111209 /* Embed Widget Extension */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				11111111111111111111120A /* SysStatsWidgetExtension.appex in Embed Widget Extension */,
+			);
+			name = "Embed Widget Extension";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		111111111111111111111201 /* SysStatsWidgetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SysStatsWidgetApp.swift; sourceTree = "<group>"; };
+		111111111111111111111202 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		111111111111111111111204 /* SysStatsWidget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SysStatsWidget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		111111111111111111111301 /* SysStatsWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SysStatsWidget.swift; sourceTree = "<group>"; };
+		111111111111111111111302 /* StatsCollector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsCollector.swift; sourceTree = "<group>"; };
+		111111111111111111111303 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		111111111111111111111305 /* SysStatsWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SysStatsWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		111111111111111111111207 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11111111111111111111130A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		111111111111111111111102 = {
+			isa = PBXGroup;
+			children = (
+				111111111111111111111104 /* SysStatsWidget */,
+				111111111111111111111105 /* SysStatsWidgetExtension */,
+				111111111111111111111103 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		111111111111111111111103 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				111111111111111111111204 /* SysStatsWidget.app */,
+				111111111111111111111305 /* SysStatsWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		111111111111111111111104 /* SysStatsWidget */ = {
+			isa = PBXGroup;
+			children = (
+				111111111111111111111201 /* SysStatsWidgetApp.swift */,
+				111111111111111111111202 /* Info.plist */,
+			);
+			path = SysStatsWidget;
+			sourceTree = "<group>";
+		};
+		111111111111111111111105 /* SysStatsWidgetExtension */ = {
+			isa = PBXGroup;
+			children = (
+				111111111111111111111301 /* SysStatsWidget.swift */,
+				111111111111111111111302 /* StatsCollector.swift */,
+				111111111111111111111303 /* Info.plist */,
+			);
+			path = SysStatsWidgetExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		111111111111111111111203 /* SysStatsWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11111111111111111111120B /* Build configuration list for PBXNativeTarget "SysStatsWidget" */;
+			buildPhases = (
+				111111111111111111111206 /* Sources */,
+				111111111111111111111207 /* Frameworks */,
+				111111111111111111111208 /* Resources */,
+				111111111111111111111209 /* Embed Widget Extension */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				111111111111111111111402 /* PBXTargetDependency */,
+			);
+			name = SysStatsWidget;
+			productName = SysStatsWidget;
+			productReference = 111111111111111111111204 /* SysStatsWidget.app */;
+			productType = "com.apple.product-type.application";
+		};
+		111111111111111111111304 /* SysStatsWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11111111111111111111130B /* Build configuration list for PBXNativeTarget "SysStatsWidgetExtension" */;
+			buildPhases = (
+				111111111111111111111308 /* Sources */,
+				11111111111111111111130A /* Frameworks */,
+				11111111111111111111130C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SysStatsWidgetExtension;
+			productName = SysStatsWidgetExtension;
+			productReference = 111111111111111111111305 /* SysStatsWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		111111111111111111111101 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					111111111111111111111203 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					111111111111111111111304 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 111111111111111111111106 /* Build configuration list for PBXProject "SysStatsWidget" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 111111111111111111111102;
+			productRefGroup = 111111111111111111111103 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				111111111111111111111203 /* SysStatsWidget */,
+				111111111111111111111304 /* SysStatsWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		111111111111111111111208 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11111111111111111111130C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		111111111111111111111206 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				111111111111111111111205 /* SysStatsWidgetApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		111111111111111111111308 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				111111111111111111111306 /* SysStatsWidget.swift in Sources */,
+				111111111111111111111307 /* StatsCollector.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		111111111111111111111402 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 111111111111111111111304 /* SysStatsWidgetExtension */;
+			targetProxy = 111111111111111111111401 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		111111111111111111111107 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		111111111111111111111108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11111111111111111111120C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_SANDBOX = NO;
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SysStatsWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.sysstatswidget;
+				PRODUCT_BUNDLE_PACKAGE_TYPE = APPL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		11111111111111111111120D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_SANDBOX = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SysStatsWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.sysstatswidget;
+				PRODUCT_BUNDLE_PACKAGE_TYPE = APPL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11111111111111111111130D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_SANDBOX = NO;
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SysStatsWidgetExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.sysstatswidget.extension;
+				PRODUCT_BUNDLE_PACKAGE_TYPE = XPC!;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				WRAPPER_EXTENSION = appex;
+			};
+			name = Debug;
+		};
+		11111111111111111111130E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_SANDBOX = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SysStatsWidgetExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.sysstatswidget.extension;
+				PRODUCT_BUNDLE_PACKAGE_TYPE = XPC!;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = appex;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		111111111111111111111106 /* Build configuration list for PBXProject "SysStatsWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				111111111111111111111107 /* Debug */,
+				111111111111111111111108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11111111111111111111120B /* Build configuration list for PBXNativeTarget "SysStatsWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11111111111111111111120C /* Debug */,
+				11111111111111111111120D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11111111111111111111130B /* Build configuration list for PBXNativeTarget "SysStatsWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11111111111111111111130D /* Debug */,
+				11111111111111111111130E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 111111111111111111111101 /* Project object */;
+}
